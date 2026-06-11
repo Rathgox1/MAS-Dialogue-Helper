@@ -1,0 +1,12 @@
+Hello there, I am rathgox and this is a template mod for adding simple dialogue for your Monika. There are a few things you should know. I am NOT an expert. While I have been programming for many years and have touched Ren'Py pretty frequently, I am not infallable, there may be wrong explainations for why things work but the code itself should work as of 2026.
+
+I will not be going over super complicated if this, then this, then that dialogue. This guide is for people with next to no experience in programming or those who want to add a few custom dialogues for their Monika. I will not (currently) be discussing how to add images or custom games.
+
+Lastly, this guide is for english speakers but can possiblly be applied to other languages. I do not have experience creating dialogue in other languages but I assume the keywords (the blue and yellow words in vscode) should function similarly for all languages. If you have any more questions you can reach out to me on reddit u/1TrueRathgox or to the wonderful people on the MAS discord.
+
+
+dev_exp_previewer.rpy download: https://github.com/Monika-After-Story/MonikaModDev/blob/master/Monika%20After%20Story/game/dev/dev_exp_previewer.rpy
+
+The github also has the .rpy files. These files are the uncompiled versions of what is in MAS and you'll want to look at them for reference.
+
+Open the 
