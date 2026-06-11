@@ -9,4 +9,4 @@ dev_exp_previewer.rpy download: https://github.com/Monika-After-Story/MonikaModD
 
 The github also has the .rpy files. These files are the uncompiled versions of what is in MAS and you'll want to look at them for reference.
 
-Open the 
+Open the dh_compliments.rpy to get started
