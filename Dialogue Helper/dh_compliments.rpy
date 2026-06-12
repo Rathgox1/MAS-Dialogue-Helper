@@ -52,7 +52,7 @@ label dh_mascomp_heartrace:
 
 
 
-## I want you to try and write two things here. An event labled dh_mascomp_wonderful before this comment, and two labels titled dh_mascomp_wonderful_2 and dh_mascomp_wonderful_3 after the dh_mascomp_wonderful label. If done correctly, you'll have your first submod officially written.
+## I want you to try and write two things here. An event labled dh_mascomp_wonderful before this comment, and two labels titled dh_mascomp_wonderful_2 and dh_mascomp_wonderful_3 after the dh_mascomp_wonderful label. If done correctly, you'll have your first submod dialogue officially written.
 
 label dh_mascomp_wonderful: ## Well what if I want to have two seperate dialogues for if I've already said this to Monika? You can create a buffer label like this
     if not renpy.seen_label("dh_mascomp_wonderful_2"):  ## Then check for if you've already seen it. The 'not' checks that this condition is not true. The renpy.seen_label("") checks if you've already visited that label. So this is asking, hey have I been here before? If the answer is yes, then it goes down the first path and calls dh_mascomp_wonderful_2
