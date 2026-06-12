@@ -1,0 +1,3 @@
+To use the dev_expressions, download the .rpy file in the walkthrough and drop it in an empty folder in your submods folder. If you do not have a submods folder, open your MAS, open your game folder, then create a new folder and name it submods
+
+Once the expression viewer is downloaded, you should see a new topic group titled dev, click it and you'll get to play with the expression viewer. Change how Monika looks and when you have the perfect positioning, copy the code on screen and paste it into your code. It can help to have ## Comments ## next to the code to explain roughly what she looks like with said code.

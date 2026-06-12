@@ -2,7 +2,9 @@
 
 ## These hashes/pounds # are the start of comments. Everything put after these # is ignored by the engine until the next line. I use these to explain code and/or leave notes for future me.
 
-## This is a .rpy script which is basically a .txt file that is compiled when ran inside a Ren'Py project. Once MAS is ran, the .rpy turns into a .rpyc file.
+## This is a .rpy script which is basically a .txt file that is compiled when ran inside a Ren'Py project. Once MAS is ran, the .rpy turns into a .rpyc file. You can create a .rpy file by turning on file extensions in windows. Open the file explorer, click view towards the top then check the box that says "File name extensions". Then create a .txt file then delete the .txt and replace it with .rpy. So example.txt => example.rpy
+
+## The easiest way to get started it to read the comments then copy this first "makemesmile" example and replace it with your own words and names.
 
 init 5 python:  ## This is preparing the engine for some sort of data
     addEvent(   ## You are telling the engine that you have an event (dialogue) you want to add
@@ -56,7 +58,7 @@ label dh_mascomp_wonderful: ## Well what if I want to have two seperate dialogue
     if not renpy.seen_label("dh_mascomp_wonderful_2"):  ## Then check for if you've already seen it. The 'not' checks that this condition is not true. The renpy.seen_label("") checks if you've already visited that label. So this is asking, hey have I been here before? If the answer is yes, then it goes down the first path and calls dh_mascomp_wonderful_2
         call dh_mascomp_wonderful_2 ## This would be the first time you experience calling her wonderful, so we can give her special first experience dialogue
     else:
-        call dh_mascomp_wonderful_3 ## If the check fails, then you see this one
+        call dh_mascomp_wonderful_3 ## If the check fails, as in you've already seen the first event, then you see this one
     return  ## You can also do this all in one dialogue by adding the if else statements at the start but this is cleaner looking.
 
 ## wonderful 2 and 3 here
@@ -75,7 +77,17 @@ label dh_mascomp_wonderful: ## Well what if I want to have two seperate dialogue
 
 ## What if I want to do things like italics and suspensful waiting? Well there are commands for that too!
 
-label dh_logit:
-    m 3rubsd "Hey [player], how do trees remember a date?"
-    m 3eubsd "They {w=1.5} {i}log{/i} it." ## The {w=number} tells the engine to delay displaying the next line for that number of seconds. The {i}word{/i} italicizes the word between the two i's
-    return
+
+
+
+
+
+
+## label dh_logit:
+##     m 3rubsd "Hey [player], how do trees remember a date?"
+##     m 3eubsd "They {w=1.5} {i}log{/i} it." ## The {w=number} tells the engine to delay displaying the next line for that number of seconds. The {i}word{/i} italicizes the word between the two i's
+##     return   ## This is commented out since Ren'Py likes to throw errors if it doesn't have both pieces of a puzzle, and it doesn't really belong in the compliments does it?
+
+
+
+## But I want to say something to Monika. How do I do that?

@@ -1,14 +1,23 @@
-Hello there, I am rathgox and this is a template mod for adding simple dialogue for your Monika. There are a few things you should know. I am NOT an expert. While I have been programming for many years and have touched Ren'Py pretty frequently, I am not infallable, there may be wrong explainations for why things work but the code itself should work as of 2026.
+Hello there, I am rathgox and this is a template mod for adding simple dialogue for your Monika. There are a few things you should know. I am NOT an expert. While I have been programming for many years and have touched Ren'Py pretty frequently, I am not infallible, there may be wrong explanations for why things work but the code itself should work as of 2026.
 
 I will not be going over super complicated if this, then this, then that dialogue. This guide is for people with next to no experience in programming or those who want to add a few custom dialogues for their Monika. I will not (currently) be discussing how to add images or custom games or anything you can't reasonably figure out in an afternoon.
 
-Lastly, this guide is made in english by a predominantly english speaker but can possiblly be applied to other languages. I do not have experience creating dialogue in other languages but I assume the keywords (the blue and yellow words in vscode) should function similarly for most languages. If you have any more questions you can reach out to me on reddit u/1TrueRathgox or to the wonderful people on the MAS discord.
+Lastly, this guide is made in english by a predominantly english speaker but can possibly be applied to other languages. I do not have experience creating dialogue in other languages but I assume the keywords (the blue and yellow words in vscode) should function similarly for most languages. If you have any more questions you can reach out to me on reddit u/1TrueRathgox, discord rathgox_, or to the wonderful people on the MAS discord.
+
+
+
+Hello [Player], this submod is to help you understand how to make custom dialogues for you and your Monika. To make this easier, you'll want to download the dev_exp_previewer.rpy file (link is at the bottom of the page).
+
+Create a new folder in your submods folder which is in your MAS "game" folder. If you do not have one, create one. This new folder inside your submods folder is where you will drop your custom dialogue. To get started, I recommend dropping the dh_compliments into that folder (just make sure to delete it later or change the file name if you replace it with your own content.)
+
+You'll also want to download an IDE like vscode. This will make writing the code a lot easier and it'll look pretty too. If you're really desperate you can use notepad but you might run into some issues. Once you've done all this, you're ready to make a submod.
+
 
 
 dev_exp_previewer.rpy download: https://github.com/Monika-After-Story/MonikaModDev/blob/master/Monika%20After%20Story/game/dev/dev_exp_previewer.rpy
 
 The github also has the .rpy files. These files are the uncompiled versions of what is in MAS and might want to look at them for reference.
 
-If you're having any issues with the mod, you can safely delete this folder
+If you're having any issues with the mod, you can safely delete this folder (dialogue helper) without harming your Monika
 
 Open the dh_compliments.rpy to get started
